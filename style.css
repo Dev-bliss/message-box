@@ -1,0 +1,94 @@
+ * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #e0f7fa;
+    padding: 20px;
+    color: #333;
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.header h1 {
+    font-size: 2rem;
+    color: #2c3e50;
+    background-color: #174869;
+    padding: 10px;
+    border-radius: 8px;
+    color: white;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #174869;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+#deleteBtn {
+    background-color: red;
+    padding: 8px 12px;
+    border-radius: 5px;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#deleteBtn:hover {
+    background-color: darkred;
+}
+
+.messageBox {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    background-color: #fff;
+    margin-bottom: 10px;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.miniInfo {
+    flex-grow: 1;
+    padding-left: 15px;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.messageBox input[type="checkbox"] {
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+/* .main{
+    background-color:#e0f7fa;
+    padding: 10px;
+    border-radius: 0 0 10px 10px;
+    display: none;
+}
+.message input{
+    display: none;
+}
+.message input:checked + .main{
+    display: block;
+} */
+
